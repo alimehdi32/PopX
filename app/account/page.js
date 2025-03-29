@@ -10,23 +10,23 @@ const page = () => {
         <div className='mt-4'>
           <label htmlFor="name" className='text-sm font-medium absolute top-1.5 left-2 bg-white px-1 text-purple-500'>Full Name <span className="text-red-500">*</span>
           </label>
-          <input type="text" id='name' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black' />
+          <input type="text" id='name' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black outline-none focus:outline-none focus:border-gray-300' />
         </div>
         <div className='mt-4'>
           <label htmlFor="phonenumber" className='text-sm font-medium absolute top-[72px] left-2 bg-white px-1 text-purple-500'>Phone Number <span className="text-red-500">*</span></label>
-          <input type="number" id='email' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black appearance-none' />
+          <input type="tel" id='phonenumber' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black appearance-none outline-none focus:outline-none focus:border-gray-300' />
         </div>
         <div className='mt-4'>
           <label htmlFor="email" className='text-sm font-medium absolute top-[140px] left-2 bg-white px-1 text-purple-500'>Email address <span className="text-red-500">*</span></label>
-          <input type="email" id='email' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black' />
+          <input type="email" id='email' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black outline-none focus:outline-none focus:border-gray-300' />
         </div>
         <div className='mt-4'>
           <label htmlFor="Password" className='text-sm font-medium absolute top-[208px] left-2 bg-white px-1 text-purple-500'>Password <span className="text-red-500">*</span></label>
-          <input type="password" id='Password' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black' />
+          <input type="password" id='Password' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black outline-none focus:outline-none focus:border-gray-300' />
         </div>
         <div className='mt-4'>
           <label htmlFor="companyname" className='text-sm font-medium absolute top-[275px] left-2 bg-white px-1 text-purple-500'>Company Name <span className="text-red-500">*</span></label>
-          <input type="text" id='companyname' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black  ' />
+          <input type="text" id='companyname' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black  outline-none focus:outline-none focus:border-gray-300' />
         </div>
         <label className="block text-sm font-medium text-gray-700">
           Are you an Agency? <span className="text-red-500">*</span>
