@@ -14,7 +14,7 @@ const page = () => {
         </div>
         <div className='mt-4'>
           <label htmlFor="phonenumber" className='text-sm font-medium absolute top-[72px] left-2 bg-white px-1 text-purple-500'>Phone Number <span className="text-red-500">*</span></label>
-          <input type="number" id='email' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black' />
+          <input type="number" id='email' placeholder='Marry Doe' className='w-64 p-2 border-2 border-gray-300 rounded-md placeholder-black appearance-none' />
         </div>
         <div className='mt-4'>
           <label htmlFor="email" className='text-sm font-medium absolute top-[140px] left-2 bg-white px-1 text-purple-500'>Email address <span className="text-red-500">*</span></label>
